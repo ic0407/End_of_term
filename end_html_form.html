@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>˗ˏˋ 是表單喔 ˎˊ˗</title>
+
+</head>
+
+<body>
+    <div id="header">
+        <div id="logo">
+            <h2>個人網站啦</h2>
+            <p>還在測試用的網站</p>
+            <p>有問題還請多多包涵(๑•̀ㅂ•́)و✧</p>
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a href="end_html.html">首頁</a></li>
+                <li><a href="">網站簡介</a></li>
+                <li><a href="">個人介紹</a></li>
+                <li><a
+                        href="https://drive.google.com/drive/folders/1X04u33qTuXgoGlAcObGQ6cMp7YSg2dCR?usp=drive_link">作業</a>
+                </li>
+                <li><a href="end_html_PictureDisplay.html">插圖範例</a></li>
+                <li><a href="end_html_form.html">委託表單</a></li>
+            </ul>
+        </div>
+    </div>
+    <main id="contents">
+        <form id="entryForm" action="#" method="POST">
+            <p><strong><span class="require">*</span>請填寫以下表單</strong></p>
+            <table class="entryTable" border="1">
+                <caption>委託單</caption>
+                <tr>
+                    <th>想委的內容</th>
+                    <td>
+                        <select name="age" required>
+                            <option value="" selected>請選擇</option>
+                            <option value="0">Q版</option>
+                            <option value="1">正比</option>
+                            <option value="2">夢圖</option>
+                            <option value="3">頭貼</option>
+                            <option value="4">二創</option>
+                            <option value="5">LOGO設計</option>
+                            <option value="6">驚喜包</option>
+                            <option value="6">其他</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th>設定圖</th>
+                    <td>
+                        <input type="file" name="photo">
+                    </td>
+                </tr>
+                <tr>
+                    <th>其他備註</th>
+                    <td><textarea name="comment" rows="4" cols="40"></textarea></td>
+                </tr>
+            </table>
+            <table class="entryTable" border="1">
+                <caption>聯絡資料</caption>
+                <tr>
+                    <th>名字</th>
+                    <td><input type="text" name="name" required placeholder="郭#琪">
+                        <small>#可用暱稱</small>
+                    </td>
+                </tr>
+                <tr>
+                    <th>付款方式</th>
+                    <td>
+                        <input type="radio" name="pay" id="male" value="網路匯款" checked>
+                        <label for="male">網路匯款</label>
+                        <input type="radio" name="pay" id="female" value="ATM轉帳">
+                        <label for="female">ATM轉帳</label>
+                        <input type="radio" name="pay" id="female" value="面交">
+                        <label for="female">面交</label>
+                        <input type="radio" name="pay" id="female" value="其他">
+                        <label for="female">其他</label>
+                    </td>
+                </tr>
+                <tr>
+                    <th>可聯絡方式</th>
+                    <td>
+                        <input type="checkbox" name="favorite" value="Line">Line
+                        <input type="checkbox" name="favorite" value="facebook">facebook
+                        <input type="checkbox" name="favorite" value="gmail">gmail
+                        <input type="checkbox" name="favorite" value="電話">電話
+                        <input type="checkbox" name="favorite" value="其他">其他
+                    </td>
+                </tr>
+                <tr>
+                    <th>facebook</E-mail></th>
+                    <td><input type="email" name="facebook" required
+                            placeholder="https://www.facebook.com/Ice.cream0407/">
+                        <small>#請貼網址</small>
+                    </td>
+                </tr>
+                <tr>
+                    <th>E-mail</E-mail></th>
+                    <td><input type="email" name="email" required placeholder="vicky92407@gmail.com">
+                        <small>#請輸入半月形文字</small>
+                    </td>
+                </tr>
+            </table>
+            <div class="entryBtns">
+                <input type="reset" value="清除重填">
+                <input type="submit" value="送出">
+            </div>
+        </form>
+    </main>
+
+</body>
+<footer>
+    <p><small>Copyright © 神奇豆豆&冰淇淋 All Rights Reserved.</small></p>
+</footer>
+</body>
+
+</html>
