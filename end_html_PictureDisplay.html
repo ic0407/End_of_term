@@ -2,54 +2,99 @@
 <html lang="zh-TW">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS連結 -->
+  <link rel="stylesheet" href="end_htmlCSS.css">
+  <!-- Bootstrap連結 -->
+  <link href="bootstrap.min.css" rel="stylesheet">
+  <script src="bootstrap.bundle.min.js"></script>
 
-    <title>˗ˏˋ 插圖範例 ˎˊ˗</title>
+  <title>˗ˏˋ 插圖範例 ˎˊ˗</title>
+
 </head>
 
-<body>
-    <div id="header">
-        <div id="logo">
-            <p class="h2">個人網站啦</p>
-            <p>還在測試用的網站</p>
-            <p>有問題還請多多包涵(๑•̀ㅂ•́)و✧</p>
-        </div>
-        <div id="menu">
-            <ul>
-                <li><a href="end_html.html">首頁</a></li>
-                <li><a
-                        href="https://drive.google.com/drive/folders/1X04u33qTuXgoGlAcObGQ6cMp7YSg2dCR?usp=drive_link">作業</a>
-                </li>
-                <li><a href="end_html_PictureDisplay.html">插圖範例</a></li>
-                <li><a href="end_html_form.html">委託表單</a></li>
-            </ul>
-        </div>
+<body class="container">
+  <div class="container-fluid p-5 bg-btn-primary text-white text-center">
+    <h1>插圖範例</h1>
+    <p>好耶好耶好耶</p>
+  </div>
 
+  <!-- 列表 -->
+  <nav class="navbar navbar-expand-sm bg-light">
+    <div class="container">
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link" href="end_html.html">首頁</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"
+            href="https://drive.google.com/drive/folders/1u96-KsZ6K6gMXh_vfPtgtRpjVxaW5WW2?usp=drive_link">作業</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="end_html_PictureDisplay.html">插圖範例</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="end_html_form.html">表單</a>
+        </li>
+      </ul>
     </div>
-    <article id="main">
-        <div id="slider">
-            <img src="pic/front_page01.jpg" width="620px" alt="sunset">
-        </div>
-        <div id="box">
-            <h3>網站簡介</h3>
-            <p>這是一個快被當的大學生在最後三周內大出來的網站，<br>還是直接把我當掉好了。</p>
-        </div>
-        <div id="content">
-            <h3>個人介紹</h3>
-            <p>只是一坨快要爛掉的冰淇淋，<br>長期潛伏在fb當深海魚，<br>快被當了請救救我。</p>
-        </div>
-        <div id="sidebar">
+    </div>
+  </nav>
 
-        </div>
-    </article>
-</body>
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-sm-4">
+        <h3>QQ人-全身</h3>
+        <img src="pic/QQface01.jpg" class="img-thumbnail" alt="Cinque Terre" width="304" height="236">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      </div>
+      <div class="col-sm-4">
+        <h3>QQ人-半身</h3>
+        <img src="pic/QQface02.jpg" class="img-thumbnail" alt="Cinque Terre" width="304" height="236">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      </div>
+      <div class="col-sm-4">
+        <h3>QQ人-大頭</h3>
+        <img src="pic/QQface03.jpg" class="img-thumbnail" alt="Cinque Terre" width="304" height="236">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-sm-4">
+        <h3>正比-大頭</h3>
+        <img src="pic/face01.jpg" class="img-thumbnail" alt="Cinque Terre" width="304" height="236">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      </div>
+      <div class="col-sm-4">
+        <h3>正比-半身</h3>
+        <img src="pic/face02.jpg" class="img-thumbnail" alt="Cinque Terre" width="304" height="236">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      </div>
+      <div class="col-sm-4">
+        <h3>正比-全身</h3>
+        <img src="pic/face03.jpg" class="img-thumbnail" alt="Cinque Terre" width="304" height="236">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="mt-5 p-4 bg-white text-dark text-center">
+    <p>Copyright © ic_0407 All Rights Reserved.</p>
+  </div>
 
 </body>
-<footer>
-    <p><small>Copyright © ic_0407 All Rights Reserved.</small></p>
-</footer>
-</body>
+
+
 
 </html>

@@ -17,51 +17,136 @@
 </head>
 
 <body class="container">
-    <div class="container p-5  text-white text-center">
-        <h2>個人網站啦</h2>
-        <p>還沒完成的網站</p>
-        
-      </div>
 
-    <!-- <div id="header">
-        <div id="logo" class="container">
-            <h2>個人網站啦</h2>
-            <p>還沒完成的網站</p>
-            <p>有問題還請多多包涵(๑•̀ㅂ•́)و✧</p>
-        </div> -->
+    <article id="main">
 
-        <div id="menu">
+        <!-- 輪播圖片+圖片裡的註解文字 -->
+        <!-- Carousel -->
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="pic/front_page04.jpg" alt="Los Angeles" class="d-block" style="width:100%">
+                    <div class="carousel-caption">
+                        <h3>個人網站啦</h3>
+                        <p>還沒完成的網站</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="pic/front_page05.jpg" alt="Chicago" class="d-block" style="width:100%">
+                    <div class="carousel-caption">
+                        <h3>我這學期才剛學</h3>
+                        <p>有問題還請多多包涵(๑•̀ㅂ•́)و✧</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="pic/front_page06.jpg" alt="New York" class="d-block" style="width:100%">
+                    <div class="carousel-caption">
+                        <h3>人生好難</h3>
+                        <p>不知道這裡要寫什麼</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+
+        <!-- 列表 -->
+        <nav class="navbar navbar-expand-sm bg-light">
+            <div class="container">
+                <ul class="nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="end_html.html">首頁</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="https://drive.google.com/drive/folders/1u96-KsZ6K6gMXh_vfPtgtRpjVxaW5WW2?usp=drive_link">作業</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="end_html_PictureDisplay.html">插圖範例</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="end_html_form.html">表單</a>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+          </nav>
+
+        </div>
+
+        <div class="container mt-5">
             <div class="row">
-                <div class="col p-3 ">  </div>
-                <div class="col p-3 "><a href="end_html.html">首頁</a></div>
-                <div class="col p-3 "><a href="https://drive.google.com/drive/folders/1X04u33qTuXgoGlAcObGQ6cMp7YSg2dCR?usp=drive_link">作業</a></div>
-                <div class="col p-3 ">  </div>
-                <div class="col p-3 "><a href="end_html_PictureDisplay.html">插圖範例</a> <a href="end_html_form.html">委託表單</a></div>
-              </div>
+                <div class="col-sm-4">
+                    <h2>關於我</h2>
+                    <img src="pic/icci0407.png" class="img-thumbnail" alt="Cinque Terre" width="304" height="236">
+                    <p> </p>
+                    <p>只是一坨快要爛掉的冰淇淋，<br>長期潛伏在fb當深海魚，<br>快被當了請救救我。</p>
+
+                    <h3 class="mt-4">好多連結</h3>
+                    <p>一些個人帳號的連結，直接戳過來就好ㄌ。</p>
+                    <ul class="nav nav-pills flex-column">
+                        <li class="nav-item">
+                            <a href="https://www.facebook.com/Ice.cream0407/" href="#">facebook</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="https://www.instagram.com/ic_0407/" href="#">instagram</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="https://twitter.com/ic_0407" href="#">twitter</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="https://sketchfab.com/ic_0407" href="#">sketchfab</a>
+                        </li>
+                    </ul>
+                    <p> </p>
+                    <button type="button" class="btn btn-light" data-bs-toggle="collapse"
+                        data-bs-target="#demo">你中獎了!!!</button>
+                    <div id="demo" class="collapse">
+                        喜提重補修一學期啦哈哈北七
+                    </div>
+
+                    <hr class="d-sm-none">
+                </div>
+
+                <div class="col-sm-8">
+                    <h2>網站簡介</h2>
+                    <img src="pic/front_page07.jpg" class="rounded" alt="Cinque Terre">
+                    <p> </p>
+                    <p>這裡好像需要寫東西塞版面</p>
+                    <p>這是一個快被當的大學生在最後三周內大出來的網站，<br>還是直接把我當掉好了。</p>
+
+                    <h2 class="mt-5">這倒底是什麼東西</h2>
+                    <img src="pic/front_page08.jpg" class="rounded" alt="Cinque Terre">
+                    <p> </p>
+                    <p>我都不知道我在打什麼</p>
+                    <p>這學期過完大概會得腎衰竭，仔細想想後好像這樣也不錯。</p>
+                </div>
             </div>
         </div>
-    </div>
-    <article id="main">
-        <div id="slider">
-            <img src="pic/front_page01.jpg" width="620px" alt="sunset">
-            <img src="pic/front_page02.jpg" width="620px" alt="sunset">
-        </div>
-        <div id="box">
-            <h3>網站簡介</h3>
-            <p>這是一個快被當的大學生在最後三周內大出來的網站，<br>還是直接把我當掉好了。</p>
-        </div>
-        <div id="content">
-            <h3>個人介紹</h3>
-            <p>只是一坨快要爛掉的冰淇淋，<br>長期潛伏在fb當深海魚，<br>快被當了請救救我。</p>
-        </div>
-        <div id="sidebar">
 
-        </div>
+
     </article>
 
 
     <footer>
-        Copyright © ic_0407 All Rights Reserved.
+        <div class="mt-5 p-4 bg-white text-dark text-center">
+            <p>Copyright © ic_0407 All Rights Reserved.</p>
+        </div>
+
     </footer>
 
 </body>
