@@ -2,7 +2,7 @@
 
 /*視窗背景色設定*/
 body {
-  background-image:url(pic/backGround_02.jpg);
+  background-image:url(../pic/backGround_02.jpg);
   background-size: cover; /* 适应屏幕大小 */
   background-position: center; /* 图片居中显示 */
   background-repeat: no-repeat; /* 不重复显示背景图 */
