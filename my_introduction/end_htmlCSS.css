@@ -1,11 +1,45 @@
 
 
 body {
-    background-image:url(../pic/backGround_02.jpg);
+    background-image:url(./pic/backGround_02.jpg);
+    background-attachment: fixed;
     background-size: cover; /* 适应屏幕大小 */
     background-position: center; /* 图片居中显示 */
     background-repeat: no-repeat; /* 不重复显示背景图 */
 }
+
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .parallax-container {
+    overflow: hidden;
+    height: 100vh;
+  }
+  
+  .parallax-item {
+    position: relative;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+  }
+  
+  .layer1 {
+    background-image: url('./pic/Starbg001.png'); /* Replace 'background1.png' with your image file */
+  }
+  
+  .layer2 {
+    background-image: url('./pic/Starbg002.png'); /* Replace 'background2.png' with your image file */
+  }
+
+
+
 
 /*頁面標題設定*/
 h1 {
